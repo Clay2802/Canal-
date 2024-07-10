@@ -1,0 +1,183 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+   
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    justify-content: space-between;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    
+
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-top: 30px;
+    color:black;
+    margin-bottom: 20px;
+
+}
+
+.logo {
+    height: 50px;
+}
+
+.hero {
+    
+    background-size: cover;
+    background-color: #333;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0 0 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 0 0 30px;
+}
+
+.cta-button {
+    background-color: #EC3655;
+    color: #fff;
+   height: 40px;
+   width: 150px;
+   display: flex;
+   justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    align-items: center;
+    margin: auto 0;
+}
+.cta-button-inscrit {
+    background-color: #EC3655;
+    color: #fff;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+    font-size: 1.2em;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    align-items: center;
+}
+
+.cta-button:hover {
+    background-color: #b20710;
+   
+}
+.cta-button-inscrit:hover {
+    background-color: #b20710;
+   
+}
+
+.features {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+}
+
+.feature-list{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px
+    }
+
+.feature {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.form-Inscrivez-vous{
+    color: #000;
+}
+
+
+.form-section {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.signup-form button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    width: 50%;
+}
+.signup-form input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.signup-form button:hover {
+    background-color: #b20710;
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+
+.form-police{
+    color: #000;
+}
+.footer-icon1{
+    color: #fff;
+    text-align: right;
+    justify-content: space-between;
+    
+    }
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+}
